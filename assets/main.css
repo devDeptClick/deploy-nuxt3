@@ -1,0 +1,79 @@
+ /* @import './base.css';  */
+@import './flaticon.css';
+@import './line-awesome.min.css';
+
+body, html{
+  overflow-x: hidden;
+}
+
+body, p, span , pre, *{
+  font-family: 'Rubik', sans-serif;
+}
+
+
+section {
+  padding: 35px 0 !important;
+}
+
+a, a:focus {
+  text-decoration: none !important;
+}
+
+p{
+  margin-bottom: 0 !important;
+}
+
+pre{
+  overflow: hidden;
+  white-space: normal;
+}
+
+.img-fluid{
+  cursor: pointer;
+}
+
+.product-desc a{
+  color: #000;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.product-link a.add-cart {
+  width: auto;
+  height: auto;
+  padding: 0px 20px;
+  line-height: 40px;
+  font-size: 14px;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+
+.product-link a:hover {
+  background: #1176d3;
+  color: #ffff;
+}
+
+.product-link a {
+  background: #003789;
+  font-weight: 500;
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  line-height: 36px;
+  overflow: hidden;
+  color: #ffff !important;
+  position: relative;
+  -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15);
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15);
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+}
+
+.product-link a i {
+  display: inline-block;
+  color: #ffff !important;
+  font-size: 18px;
+  vertical-align: baseline;
+}

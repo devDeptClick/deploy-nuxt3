@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "is-mobile": "^5.0.0",
+    "moment": "^2.30.1",
+    "nuxt": "^3.13.2",
+    "swiper": "^11.1.14",
+    "truncate-html": "^1.1.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
